@@ -8,6 +8,7 @@ module.exports = {
       '@page': path.resolve(__dirname, './src/components/page'),
       '@ui': path.resolve(__dirname, './src/components/ui'),
       '@app': path.resolve(__dirname, './src/components/app'),
+      '@assets': path.resolve(__dirname, './src/assets'),
     },
   },
 };
