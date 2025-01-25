@@ -2,10 +2,10 @@
     position: relative;
     display: flex;
     padding-right: 90px;
-    padding-left: 09px;
+    padding-left: 90px;
     padding-top: 100px;
     padding-bottom: 80px;
-    background-color: #ffeead;
+    /* background-color: #ffeead; */
     background-position: left bottom;
     background-size: 449px 304px;
     background-repeat: no-repeat;
@@ -13,5 +13,29 @@
     align-items: center;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQ5IiBoZWlnaHQ9IjMwNCIgdmlld0JveD0iMCAwIDQ0OSAzMDQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTIyLjEyNCA2MTMuOTU0QzU2Ljc2ODggNjIzLjQ1NiAxLjU4MzM1IDU2Ni4yMzMgLTQ4LjU0MTUgNTIzLjIyOUMtOTUuMDA5MSA0ODMuMzYyIC0xMjkuNzE5IDQzNC4zMjMgLTE1My4xNzMgMzc3Ljc2NUMtMTc4LjQ2NyAzMTYuNzcgLTIxNC4wOTEgMjQ4LjE1OSAtMTg3LjcxIDE4Ny42MjdDLTE2MS41MTMgMTI3LjUxOCAtODEuNzA3NyAxMTguODgzIC0yNS41NzcyIDg0Ljk5NkMyNC4xODc3IDU0Ljk1MjMgNjQuNDM4NyAtNi41OTY2NSAxMjIuMTI0IDAuNTc2NzU0QzE3OS45OTkgNy43NzM4NCAyMDAuMTIgODEuODY0NyAyNDUuMzQ5IDExOC42ODdDMjg2Ljc0MSAxNTIuMzg2IDM0My41NiAxNjIuODkgMzc0LjcyMyAyMDYuMjI1QzQxNC4xOTYgMjYxLjExOCA0NjguMzIxIDMyOS45NjMgNDQyLjA5IDM5Mi4yOEM0MTUuNDEgNDU1LjY2MSAzMTYuNzAzIDQzOS4xOCAyNjAuMTc5IDQ3OC4zNDFDMjA1LjgyNSA1MTUuOTk3IDE4Ny41NTggNjA0LjQ0IDEyMi4xMjQgNjEzLjk1NFoiIGZpbGw9IiNGRkY2RDkiPjwvcGF0aD4KPC9zdmc+");
+    /* background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQ5IiBoZWlnaHQ9IjMwNCIgdmlld0JveD0iMCAwIDQ0OSAzMDQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTIyLjEyNCA2MTMuOTU0QzU2Ljc2ODggNjIzLjQ1NiAxLjU4MzM1IDU2Ni4yMzMgLTQ4LjU0MTUgNTIzLjIyOUMtOTUuMDA5MSA0ODMuMzYyIC0xMjkuNzE5IDQzNC4zMjMgLTE1My4xNzMgMzc3Ljc2NUMtMTc4LjQ2NyAzMTYuNzcgLTIxNC4wOTEgMjQ4LjE1OSAtMTg3LjcxIDE4Ny42MjdDLTE2MS41MTMgMTI3LjUxOCAtODEuNzA3NyAxMTguODgzIC0yNS41NzcyIDg0Ljk5NkMyNC4xODc3IDU0Ljk1MjMgNjQuNDM4NyAtNi41OTY2NSAxMjIuMTI0IDAuNTc2NzU0QzE3OS45OTkgNy43NzM4NCAyMDAuMTIgODEuODY0NyAyNDUuMzQ5IDExOC42ODdDMjg2Ljc0MSAxNTIuMzg2IDM0My41NiAxNjIuODkgMzc0LjcyMyAyMDYuMjI1QzQxNC4xOTYgMjYxLjExOCA0NjguMzIxIDMyOS45NjMgNDQyLjA5IDM5Mi4yOEM0MTUuNDEgNDU1LjY2MSAzMTYuNzAzIDQzOS4xOCAyNjAuMTc5IDQ3OC4zNDFDMjA1LjgyNSA1MTUuOTk3IDE4Ny41NTggNjA0LjQ0IDEyMi4xMjQgNjEzLjk1NFoiIGZpbGw9IiNGRkY2RDkiPjwvcGF0aD4KPC9zdmc+"); */
   }
+
+  .advantages-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    margin-left: -20px;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+  }
+  
+  .advantages-list__item {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    vertical-align: top;
+    text-align: left;
+    overflow: hidden;
+  }
+  

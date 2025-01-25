@@ -1,0 +1,12 @@
+.advantage-icon {
+  
+    display: block;
+    height: 25px;
+    padding: 4px 10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Inter", "Arial", sans-serif;
+  }

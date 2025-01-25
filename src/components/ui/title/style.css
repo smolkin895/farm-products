@@ -6,6 +6,11 @@
     font-size: 36px;
     line-height: 41px;
   }
+
+  .title_little {
+    font-size: 18px;
+    line-height: 27px;
+  }
   
   .title_small {
     font-size: 28px;

@@ -7,7 +7,7 @@ export default function MainPage() {
     return (
         <>
             <About />
-            <Advantages advantages={advantages}/>
+            <Advantages advantages={advantages} />
         </>
     );
 }
