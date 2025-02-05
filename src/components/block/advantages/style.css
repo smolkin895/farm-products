@@ -39,3 +39,9 @@
     overflow: hidden;
   }
   
+  .ul_container{
+    display: inline-block;
+    /* row-gap: 20px;
+    column-gap: 20px; */
+
+  }
