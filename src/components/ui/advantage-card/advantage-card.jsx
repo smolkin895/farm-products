@@ -16,8 +16,8 @@ export default function AdvantageCard({
         <img
           src={image}
           className="advantage-card__image"
-          width={52}
-          height={52}
+          // width={52}
+          // height={52}
           alt="изображение кота"
         />
         <div className="advantage-title__wrapper">
