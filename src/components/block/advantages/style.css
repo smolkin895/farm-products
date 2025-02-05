@@ -18,14 +18,19 @@
 
   .advantages-list {
     list-style: none;
+    width: 540px;
     margin: 0;
     padding: 0;
     margin-top: 44px;
     margin-bottom: 44px;
-    margin-left: -20px;
+    margin-left: 20px;
     font-size: 0;
     line-height: 0;
     text-align: center;
+  }
+
+  .advantages-list:first-child {
+    margin-left: 0px;
   }
   
   .advantages-list__item {
@@ -40,8 +45,5 @@
   }
   
   .ul_container{
-    display: inline-block;
-    /* row-gap: 20px;
-    column-gap: 20px; */
-
+    display: flex;
   }

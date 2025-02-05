@@ -8,8 +8,8 @@ export default function Advantages({ advantages }){
         <section className="advantages">
             {advantages?.length > 0 ? 
             <>
-            <div className="ul_container">
                 <Title>Почему фермерские продукты лучше?</Title>
+                <div className="ul_container">
                 <ul className="advantages-list">
                     {advantages.map((advantage) =>
                        { if(advantage.feature === "farmer"){
