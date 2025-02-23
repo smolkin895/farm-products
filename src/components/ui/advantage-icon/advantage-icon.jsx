@@ -1,4 +1,4 @@
-import "./style.css";
+import styles from "./style.module.css";
 
 export const advantageFeature = {
     FARMER: "farmer",
@@ -31,7 +31,7 @@ export default function AdvantageIcon({ className="", feature }) {
 
     return options.text ? (
         <span
-        className={`advantage-icon ${className}`}
+        className={`${styles.advantage_icon} ${className}`}
         style={{ backgroundColor: options.bgColor }}>
             {options.text}
         </span>

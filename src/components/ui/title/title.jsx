@@ -1,4 +1,4 @@
-import "./style.css";
+import styles from "./style.module.css";
 
 export const TitleSize = {
     BIG: "big",
@@ -9,7 +9,7 @@ export const TitleSize = {
 
 export default function Title({size, children, className=""}) {
     return(
-        <h1 className={`title ${size ? ` title_${size}` : ""} ${className}`}>{children}</h1>
+        <h1 className={`${styles.title} ${size ? styles[`title_${size}`] : ""} ${className ? className : ""}`}>{children}</h1>
     )
 
 } 
